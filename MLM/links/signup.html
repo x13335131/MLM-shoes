@@ -1,0 +1,127 @@
+	<!DOCTYPE html>
+		<html xmlns ="http://www.w3.org/1999/xhtml" lang= "en">
+		
+		<head>
+		
+			<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+			<title> MLM Shoes | Contact </title>
+			<link rel="stylesheet" href="../css/signup.css"/>
+
+
+		</head>
+		
+		<body>
+		
+			<div id ="big_wrapper" >
+				<div id ="top_header">
+				<header>
+						<img src = "../images/signup/logos/logo.png" alt = "Logo"/>
+				</header>
+				</div>
+					
+			<div id ="top_menu">
+			<nav >
+				<ul>
+					<li class = "Button" > <a href = "../index.html"> <img src = "../images/signup/buttons/home.png" alt = "Home Button" /> </a> </li> 
+					<li class = "Button" > <a href = "../links/womens.html"> <img src = "../images/signup/buttons/womens.png" alt = "Womens" />  </a> </li>
+					<li class = "Button" > <a href = "../links/mens.html"> <img src = "../images/signup/buttons/mens.png"  alt = "Mens"/> </a> </li>
+					<li class = "Button" > <a href = "../links/girls.html"> <img src = "../images/signup/buttons/girls.png" alt = "Girls" /> </a>  </li>
+					<li class = "Button" > <a href = "../links/boys.html"> <img src = "../images/signup/buttons/boys.png" alt = "Boys" /> </a>  </li>
+					
+				</ul>
+			</nav>
+			</div>
+			
+			<section id ="signup_section">
+			<form id="signup">
+		
+			
+				<header> Newsletter Registration </header>
+		
+				<ul>
+					
+					<li class = "Info">
+						<label> First Name </label>
+						<input id= "firstname" name="firstname" type="text" placeholder="First Name" required autofocus>
+					</li>
+					
+					<li class = "Info">
+						<label> Last Name </label>
+						<input id= "lastname" name="lastname" type="text" placeholder="Last Name" required autofocus>
+					</li>
+					
+					<li class = "Info">
+						<label> Email </label>
+						<input id= "email" name="email" type="email" placeholder="example@domain.com" required>
+					</li>
+					
+					<li class = "Info">
+						<label> Phone </label>
+						<input id= "phone" name="phone" type="tel" placeholder="Eg. +353 871234567" required>
+					</li>
+						
+				</ul>
+			
+				<header> Delivery address </header>
+				
+				<ul>
+				
+					<li class = "Info">
+						<label> Address </label>
+						<textarea id="address" name="address" rows=3> </textarea>
+					</li>
+					
+					<li class = "Info">
+						<label> Post code </label>
+						<input id="postcode" name="postcode" type="text" required>
+					</li>
+					
+					<li class = "Info">
+						<label> Country </label>
+						<input id="country" name="country" type="text" required>
+					</li>
+				
+				</ul>
+			
+				<input type="submit" value ="Submit" name ="mailto:mlmshoes2013@gmail.com">
+			
+		
+		</form>
+
+		    </section>
+		
+				<section id="map_section">
+				<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=true">
+				</script>
+
+				<script>
+			function initialize()
+			{
+			var mapProp = {
+			  center:new google.maps.LatLng(53.3414,-6.2603),
+			  zoom:30,
+			  mapTypeId:google.maps.MapTypeId.ROADMAP
+			  };
+			var map=new google.maps.Map(document.getElementById("googleMap")
+			  ,mapProp);
+			}
+
+			google.maps.event.addDomListener(window, 'load', initialize);
+			</script>
+			<div id="googleMap" style="width:500px;height:380px;"></div>
+			
+				</section>
+
+			<footer id ="copyright">
+				<p> &copy; 2013 MLM Shoes | All Rights Reserved </p>
+				<ul>
+					<li class = "Icon"> <a href ="https://www.facebook.com/pages/MLM-Shoes/448139671963126"> <img src = "../images/home/buttons/facebook.png" alt ="Facebook"/> </a> </li>
+					<li class = "Icon"> <a href ="http://www.youtube.com/channel/UCY1estaEUGTtGGGKvEuXK0Q?feature=watch"> <img src = "../images/home/buttons/youtube.png" alt ="YouTube"/> </a> </li>
+					<li class = "Icon"> <a href ="mailto:mlmshoes2013@gmail.com"> <img src = "../images/home/buttons/email.png" alt ="email"/> </a> </li>
+					<li class = "Icon"> <a href ="https://www.google.ie/webhp?source=search_app&amp;.)gws_rd=cr&amp;.)ei=XbqgUv77MYnT7AbK1IGIAg">	<img src = "../images/home/buttons/google.png" alt ="Google"/> </a> </li>
+					<li class = "Icon"> <a href ="https://twitter.com/MLMShoes"> <img src = "../images/home/buttons/twitter.png" alt ="Twitter"/> </a> </li>
+				</ul>
+			</footer>
+			</div>
+			</body>
+			</html>

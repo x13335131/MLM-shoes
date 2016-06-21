@@ -1,0 +1,283 @@
+/*Meagan*/
+
+*{
+	margin:0px;
+	padding:0px;
+ }	
+ header, section, footer, aside, nav, article, hgroup{
+	display:block;
+ }
+ body{
+	background:#3B3131;
+	width:100%;
+	display:-webkit-box;
+	-webkit-box-pack: center;
+ }
+ #big_wrapper{
+	max-width: 1200px;
+	max-height: 1200px;
+	margin: 10px ;
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+ }
+ #top_header{
+	-webkit-border-radius: 25px;
+	text-align: left;
+	padding: 0px;
+	margin: 10px;
+ }
+ #top_menu{
+	-webkit-border-radius: 25px;
+	text-align: left;
+	border-style: ridge;
+	border-color: #F87217;
+	background: #504A4B;
+	margin: 10px;
+ }
+ #top_menu li{
+	display: inline-block;
+	list-style:none;
+	padding: 20px;
+	font-family: Myriad pro;
+ }
+ 	.Button {
+		width:170px;
+		padding:1px 1px 1px 1px; 		
+		text-align: center;	
+		
+		-webkit-transition: all 200ms ease-out;
+		   -moz-transition: all 200ms ease-out;
+		        transition: all 200ms ease-out;
+	}		
+	.Button img {
+		margin:auto;
+		display:block;
+		border:none;
+		
+		-webkit-transform: scale(.9);
+		   -moz-transform: scale(.9);
+		    -ms-transform: scale(.9);
+		     -o-transform: scale(.9));		
+		        transform: scale(.9);
+	
+		-webkit-transition: all 300ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+		   -moz-transition: all 300ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+		    -ms-transition: all 300ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+		     -o-transition: all 300ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+		        transition: all 300ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	}	
+	.Button:hover {
+		background-color:white;
+		background-color: rgba(200,200,200,.3);
+		-webkit-border-radius: 10px;
+		border-radius: 10px;		
+		cursor: pointer;
+	}	
+	.Button:hover img {
+		-moz-transform: scale(1);
+		-webkit-transform: scale(1);
+		-o-transform: scale(1));
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+#main_header{
+	display: inline-block;
+	list-style:none;
+	padding: 20px;
+	color: #D1D0CE;
+	text-align: left;
+	font-family: Myriad pro;
+	font-size: 30px;
+}
+#main_menu li{
+	display: inline-block;
+	list-style:none;
+	padding: 20px;
+	font-family: Myriad pro;
+	font-size: 30px;
+}
+#main_section{
+	-webkit-border-radius: 25px;
+	text-align: center;
+	min-height: 400px;
+	border-style: ridge;
+	border-color: #F87217;
+	-webkit-box-flex: 1;
+	margin: 10px ;
+	padding: 20px;
+	background : #504A4B;
+	color: #D1D0CE;
+	font-family: Myriad pro;
+	font-size: 30px;
+	clear: both;
+}
+ #adidas_section{
+	-webkit-border-radius: 25px;
+	text-align: center;
+	min-height: 450px;
+	border-style: ridge;
+	border-color: #F87217;
+	-webkit-box-flex: 1;
+	margin: 15px ;
+	padding: 20px;
+	background : #504A4B;
+	color: #D1D0CE;
+	font-family: Myriad pro;
+	font-size: 25px;
+	clear: both;
+}
+  #adidas li{
+	display: inline-block;
+	list-style:none;
+	padding: 20px;
+	font-family: Myriad pro;
+	font-size: 20px;
+}
+  #nike_section{
+	-webkit-border-radius: 25px;
+	text-align: center;
+	min-height: 450px;
+	border-style: ridge;
+	border-color: #F87217;
+	-webkit-box-flex: 1;
+	margin: 15px ;
+	padding: 20px;
+	background : #504A4B;
+	color: #D1D0CE;
+	font-family: Myriad pro;
+	font-size: 25px;
+	clear: both;
+}
+  #nike li{
+	display: inline-block;
+	list-style:none;
+	padding: 20px;
+	font-family: Myriad pro;
+	font-size: 20px;
+}
+ #puma_section{
+	-webkit-border-radius: 25px;
+	text-align: center;
+	min-height: 450px;
+	border-style: ridge;
+	border-color: #F87217;
+	-webkit-box-flex: 1;
+	margin: 15px ;
+	padding: 20px;
+	background : #504A4B;
+	color: #D1D0CE;
+	font-family: Myriad pro;
+	font-size: 25px;
+	clear: both;
+}
+  #puma li{
+	display: inline-block;
+	list-style:none;
+	padding: 20px;
+	font-family: Myriad pro;
+	font-size: 20px;
+ }
+ #converse_section{
+	-webkit-border-radius: 25px;
+	text-align: center;
+	min-height: 450px;
+	border-style: ridge;
+	border-color: #F87217;
+	-webkit-box-flex: 1;
+	margin: 15px ;
+	padding: 20px;
+	background : #504A4B;
+	color: #D1D0CE;
+	font-family: Myriad pro;
+	font-size: 25px;
+	clear: both;
+ }
+  #converse li{
+	display: inline-block;
+	list-style:none;
+	padding: 20px;
+	font-family: Myriad pro;
+	font-size: 20px;
+ }
+  #timberland_section{
+	-webkit-border-radius: 25px;
+	text-align: center;
+	min-height: 450px;
+	border-style: ridge;
+	border-color: #F87217;
+	-webkit-box-flex: 1;
+	margin: 15px ;
+	padding: 20px;
+	background : #504A4B;
+	color: #D1D0CE;
+	font-family: Myriad pro;
+	font-size: 25px;
+	clear: both;
+ }
+  #timberland li{
+	display: inline-block;
+	list-style:none;
+	padding: 20px;
+	font-family: Myriad pro;
+	font-size: 20px;
+ }
+ .Image {
+		width:300px;
+		padding:10px 10px 10px 10px; 		
+		text-align: center;	
+		
+		-webkit-transition: all 200ms ease-out;
+		   -moz-transition: all 200ms ease-out;
+		        transition: all 200ms ease-out;
+	}		
+	.Image img {
+		margin:2px;
+		display:block;
+		border-style: ridge;
+		border-color: #2C3539;
+		-webkit-border-radius: 25px;
+		
+		-webkit-transform: scale(.8);
+		   -moz-transform: scale(.8);
+		    -ms-transform: scale(.8);
+		     -o-transform: scale(.8));		
+		        transform: scale(.8);
+	
+		-webkit-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+		   -moz-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+		    -ms-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+		     -o-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+		        transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	}	
+	.Image:hover {
+		background-color:white;
+		background-color: rgba(200,200,200,.3);
+		-webkit-border-radius: 10px;
+		border-radius: 10px;		
+		cursor: pointer;
+	}	
+	.Image:hover img {
+		-moz-transform: scale(1);
+		-webkit-transform: scale(1);
+		-o-transform: scale(1));
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+ #copyright{
+	padding: 20px;
+	border-top-style: ridge;
+	border-color: #F87217;
+	color: #D1D0CE;
+	margin: 20px;
+	text-align: center;
+	font-family: Myriad pro;
+	font-size: 15px;
+}
+
+	
+ 
+ 
+ 
+	
+	
